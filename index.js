@@ -6,7 +6,7 @@ const bgcolor = () => {
     let hex = '#'+currentTime.replaceAll(':','')
     console.log("hex:",hex)
     document.body.style.backgroundColor = hex
-    time.innerHTML = currentTime
+    time.innerHTML = hex
     setTimeout(bgcolor,1000)
 }
 
