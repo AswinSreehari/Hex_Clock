@@ -6,6 +6,4 @@ html,body {
     color: aliceblue;
     
 }
-h1::before {
-	content: '#';
-}
+ 
